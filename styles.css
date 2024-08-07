@@ -5,13 +5,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Iniciando o header */
 header {
-    background-color: #3F4F8A;
+    background-color: #7056A0;
     height: 100px;
 }
 
@@ -45,12 +45,46 @@ a {
 /* Iniciando a main */
 
 main {
-    background-color: #3F4F8A;
     color: white;
 }
 
-section {
+/* Iniciando a section inicio */
+
+.inicio {
+    height: 500px;
     display: flex;
+    background-color: #7056A0;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.texto{
+    width: 40%;
+}
+
+
+.texto p{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.texto button{
+    border:none;
+    background-color: #332271;
+    color:white;
+    text-transform: uppercase;
+    padding: 15px 40px 15px 40px;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px; */
+    border-radius: 10px;
+}
+
+
+.imagens img{
+    margin-right:20px;
 }
 
 .imagem-maior {
@@ -62,6 +96,22 @@ section {
     width: 206px;
     height: 439px;
 }
+/* Finalizando a section inicio */
 
+
+/* Iniciando a section produtos */
+
+
+/* Fianlizando a section produtos */
+
+
+/* Iniciando a section categorias */
+
+
+/* Fianlizando a section categorias */
 
 /* Finalizando a main */
+
+/* Inicando o footer */
+
+/* Finalizando o footer */
